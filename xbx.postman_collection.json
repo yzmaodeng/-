@@ -1,0 +1,532 @@
+{
+	"id": "2ea25f5d-648d-5310-11f0-54a648e65bee",
+	"name": "xbx",
+	"description": "",
+	"order": [
+		"6f1228db-d342-efd1-b67f-c25cb4a65e2e",
+		"56fc142c-b54e-1670-5535-0e9ca20494cc",
+		"509323eb-8bf1-1815-0939-d30ce206e25a",
+		"31d7c788-1e52-cc6e-bc72-ba06d4dacf8f",
+		"602bf95b-cd63-681f-b644-b1157133e7bd",
+		"db673eab-e58e-ad12-a2a9-63fa232a95e3",
+		"70eb4734-89f6-7fa7-dc0c-3e8bd6580328",
+		"b150a6c5-06ec-7c7d-a105-c47d62e3433f",
+		"8086e2e7-7217-09ee-5714-ed6851511fbd",
+		"3468be27-3028-4fbf-83e2-29f3b218afc9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "2296141",
+	"public": false,
+	"requests": [
+		{
+			"folder": null,
+			"id": "31d7c788-1e52-cc6e-bc72-ba06d4dacf8f",
+			"name": "账号充值管理的列表",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "pageSize",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pageIndex",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "10.11.17.11/common/acAdmin/filterChannelManageList/get.action",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "3468be27-3028-4fbf-83e2-29f3b218afc9",
+			"name": "下单接口调用（聪聪）",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "下单接口调用（聪聪）",
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://10.11.17.11/common/verification.action?apikey=aa5280bd1ebfadd305a88c5443fad365&interfaceName=query_car_report_info_price&datas=LFV5A24G4D30658081525759429&sign=&verificationCondition=2",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "apikey",
+					"value": "aa5280bd1ebfadd305a88c5443fad365",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "interfaceName",
+					"value": "query_car_report_info_price",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "datas",
+					"value": "LFV5A24G4D30658081525759429",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "sign",
+					"value": "",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "verificationCondition",
+					"value": "2",
+					"equals": true,
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "509323eb-8bf1-1815-0939-d30ce206e25a",
+			"name": "行驶证查询接口 copy",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "appkey",
+					"value": "8273066548f64c7f",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "carType",
+					"value": "02",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "carNumber",
+					"value": "辽FC7977",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://api.chuxingdata.com/carinsurance/getCarMoreInfo",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": "null",
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee",
+			"isFromCollection": true,
+			"collectionRequestId": "56fc142c-b54e-1670-5535-0e9ca20494cc"
+		},
+		{
+			"folder": null,
+			"id": "56fc142c-b54e-1670-5535-0e9ca20494cc",
+			"name": "行驶证查询接口",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "appkey",
+					"value": "8273066548f64c7f",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "carType",
+					"value": "02",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "carNumber",
+					"value": "辽FC7977",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://api.chuxingdata.com/carinsurance/getCarMoreInfo",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "602bf95b-cd63-681f-b644-b1157133e7bd",
+			"name": "查询驾驶证详细信息test",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\"licenseNo\": \"340703199112270010\"}",
+			"descriptionFormat": "html",
+			"description": "查询驾驶证详细信息test",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://test.cx580.com:8311/cxy/driverlicenseservice/query?appid=diyichewang2018Test&timespan=1524552829&sign=6B5A50830AA758EA6ED7F3D2C21CA91B",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "appid",
+					"value": "diyichewang2018Test",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "timespan",
+					"value": "1524552829",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sign",
+					"value": "6B5A50830AA758EA6ED7F3D2C21CA91B",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "6f1228db-d342-efd1-b67f-c25cb4a65e2e",
+			"name": "http://10.10.1.205/channel/report/list.action?vin=LFV2A21K8G4017738&username=test1",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://10.10.1.205/channel/report/list.action?vin=LFV2A21K8G4017738&username=test1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "vin",
+					"value": "LFV2A21K8G4017738",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "test1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "70eb4734-89f6-7fa7-dc0c-3e8bd6580328",
+			"name": "添加合同",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "channelName",
+					"value": "csqin12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "interfaceName",
+					"value": "query_car_report_info_price",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "caf89d8f75e570d43cb7217c2f489ebe",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executor",
+					"value": "xingbaoxin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "effectiveTime",
+					"value": "2018-05-08 00:00:00",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "2018-05-18 23:59:59",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amountTest",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "unitPrice",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "requestMaxDay",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "channelStatus",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://10.11.17.11/common/acAdmin/insertContract/byApiKeyInterfaceName/insert.action",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "8086e2e7-7217-09ee-5714-ed6851511fbd",
+			"name": "清缓存",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://10.11.17.11/vehicleModel/admin/cache/clean.action?key=apikey^interface^aa5280bd1ebfadd305a88c5443fad365^query_car_report_info_price",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "key",
+					"value": "apikey^interface^aa5280bd1ebfadd305a88c5443fad365^query_car_report_info_price",
+					"equals": true,
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "b150a6c5-06ec-7c7d-a105-c47d62e3433f",
+			"name": "驾驶证数据正式",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\"licenseNo\": \"120101198512243037\"}",
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "https://api.cx580.com/cxy/driverlicenseservice/query?appid=szpt2018&timespan=1524449006882&sign=E79F5D6F335E78FB79C03D21A73B78AF",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "appid",
+					"value": "szpt2018",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "timespan",
+					"value": "1524449006882",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "sign",
+					"value": "E79F5D6F335E78FB79C03D21A73B78AF",
+					"equals": true,
+					"enabled": true
+				}
+			],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		},
+		{
+			"folder": null,
+			"id": "db673eab-e58e-ad12-a2a9-63fa232a95e3",
+			"name": "接口列表",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "10.11.17.11/common/acAdmin/contractInterfaceInfo/byChannelName/get.action?channelName=xingbaoxin",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "channelName",
+					"value": "xingbaoxin",
+					"equals": true,
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "2ea25f5d-648d-5310-11f0-54a648e65bee"
+		}
+	]
+}
